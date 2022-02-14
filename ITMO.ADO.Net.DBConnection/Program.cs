@@ -16,7 +16,7 @@ namespace ITMO.ADO.Net.DBConnection
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Connection());
         }
     }
 }
