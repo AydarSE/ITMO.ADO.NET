@@ -34,6 +34,8 @@
             this.отключитьсяОтБДToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.асинхронноеПодключениеКБДToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.списокПодключенийToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -88,15 +90,37 @@
             this.списокПодключенийToolStripMenuItem.Text = "Список Подключений";
             this.списокПодключенийToolStripMenuItem.Click += new System.EventHandler(this.списокПодключенийToolStripMenuItem_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(12, 48);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(126, 52);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Сколько продуктов";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(180, 64);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(51, 20);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "label1";
+            // 
             // Connection
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Connection";
             this.Text = "Connection";
+            this.Load += new System.EventHandler(this.Connection_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -112,6 +136,8 @@
         private System.Windows.Forms.ToolStripMenuItem отключитьсяОтБДToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem асинхронноеПодключениеКБДToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem списокПодключенийToolStripMenuItem;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
     }
 }
 
