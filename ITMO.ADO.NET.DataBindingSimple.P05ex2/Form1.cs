@@ -19,12 +19,9 @@ namespace ITMO.ADO.NET.DataBindingSimple.P05ex2
 
         private BindingSource productsBindingSource;
 
-
         private void DataBinding_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'northwindDataSet.Products' table. You can move, or remove it, as needed.
-            this.productsTableAdapter.Fill(this.northwindDataSet.Products);
-
+            
             productsTableAdapter.Fill(northwindDataSet.Products);
 
             productsBindingSource = new BindingSource(northwindDataSet, "Products");

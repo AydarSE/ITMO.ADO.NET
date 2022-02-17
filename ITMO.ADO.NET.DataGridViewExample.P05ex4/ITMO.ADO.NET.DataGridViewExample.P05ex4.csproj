@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E417CFAA-A7D7-4F54-8BCC-40C850E37ECE}</ProjectGuid>
+    <ProjectGuid>{CBB1B2FE-C035-42AD-A699-62EF52C02E66}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ITMO.ADO.NET.DataViewExample.P4ex6</RootNamespace>
-    <AssemblyName>ITMO.ADO.NET.DataViewExample.P4ex6</AssemblyName>
+    <RootNamespace>ITMO.ADO.NET.DataGridViewExample.P05ex4</RootNamespace>
+    <AssemblyName>ITMO.ADO.NET.DataGridViewExample.P05ex4</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ITMO.ADO.NET.DataViewExample.P4ex6, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -53,10 +52,10 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="NorthwindDataSet2.Designer.cs">
+    <Compile Include="NorthwindDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>NorthwindDataSet2.xsd</DependentUpon>
+      <DependentUpon>NorthwindDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -72,16 +71,16 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="NorthwindDataSet2.xsc">
-      <DependentUpon>NorthwindDataSet2.xsd</DependentUpon>
+    <None Include="NorthwindDataSet.xsc">
+      <DependentUpon>NorthwindDataSet.xsd</DependentUpon>
     </None>
-    <None Include="NorthwindDataSet2.xsd">
+    <None Include="NorthwindDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>NorthwindDataSet2.Designer.cs</LastGenOutput>
+      <LastGenOutput>NorthwindDataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="NorthwindDataSet2.xss">
-      <DependentUpon>NorthwindDataSet2.xsd</DependentUpon>
+    <None Include="NorthwindDataSet.xss">
+      <DependentUpon>NorthwindDataSet.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

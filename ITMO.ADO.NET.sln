@@ -23,6 +23,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.ADO.NET.DataSourcesWiz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.ADO.NET.DataBindingSimple.P05ex2", "ITMO.ADO.NET.DataBindingSimple.P05ex2\ITMO.ADO.NET.DataBindingSimple.P05ex2.csproj", "{8CA4A3B0-C3A1-44C5-8514-5C262F36E466}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.ADO.NET.DataBindingComplex.P05ex3", "ITMO.ADO.NET.DataBindingComplex.P05ex3\ITMO.ADO.NET.DataBindingComplex.P05ex3.csproj", "{28027151-1A31-4570-8518-5065192BD00F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.ADO.NET.DataGridViewExample.P05ex4", "ITMO.ADO.NET.DataGridViewExample.P05ex4\ITMO.ADO.NET.DataGridViewExample.P05ex4.csproj", "{CBB1B2FE-C035-42AD-A699-62EF52C02E66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.ADO.NET.SavingDataSetXml.P6ex1", "ITMO.ADO.NET.SavingDataSetXml.P6ex1\ITMO.ADO.NET.SavingDataSetXml.P6ex1.csproj", "{431A877A-DCFE-45F1-BB92-913466303F09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.ADO.NET.LoadDataSetXml.P06ex02", "ITMO.ADO.NET.LoadDataSetXml.P06ex02\ITMO.ADO.NET.LoadDataSetXml.P06ex02.csproj", "{F6324C15-104E-47D8-AD86-E44FFB1024E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +77,22 @@ Global
 		{8CA4A3B0-C3A1-44C5-8514-5C262F36E466}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CA4A3B0-C3A1-44C5-8514-5C262F36E466}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CA4A3B0-C3A1-44C5-8514-5C262F36E466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28027151-1A31-4570-8518-5065192BD00F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28027151-1A31-4570-8518-5065192BD00F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28027151-1A31-4570-8518-5065192BD00F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28027151-1A31-4570-8518-5065192BD00F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBB1B2FE-C035-42AD-A699-62EF52C02E66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBB1B2FE-C035-42AD-A699-62EF52C02E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBB1B2FE-C035-42AD-A699-62EF52C02E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBB1B2FE-C035-42AD-A699-62EF52C02E66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{431A877A-DCFE-45F1-BB92-913466303F09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{431A877A-DCFE-45F1-BB92-913466303F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{431A877A-DCFE-45F1-BB92-913466303F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{431A877A-DCFE-45F1-BB92-913466303F09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6324C15-104E-47D8-AD86-E44FFB1024E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6324C15-104E-47D8-AD86-E44FFB1024E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6324C15-104E-47D8-AD86-E44FFB1024E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6324C15-104E-47D8-AD86-E44FFB1024E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -30,13 +30,11 @@
         {
             this.northwindDataSet = new ITMO.ADO.NET.DataBindingSimple.P05ex2.NorthwindDataSet();
             this.productsTableAdapter = new ITMO.ADO.NET.DataBindingSimple.P05ex2.NorthwindDataSetTableAdapters.ProductsTableAdapter();
-            this.productsDataGridView = new System.Windows.Forms.DataGridView();
             this.ProductIDTextBox = new System.Windows.Forms.TextBox();
             this.ProductNameTextBox = new System.Windows.Forms.TextBox();
             this.PreviousButto = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.northwindDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.productsDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // northwindDataSet
@@ -47,16 +45,6 @@
             // productsTableAdapter
             // 
             this.productsTableAdapter.ClearBeforeFill = true;
-            // 
-            // productsDataGridView
-            // 
-            this.productsDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.productsDataGridView.Location = new System.Drawing.Point(12, 12);
-            this.productsDataGridView.Name = "productsDataGridView";
-            this.productsDataGridView.RowHeadersWidth = 62;
-            this.productsDataGridView.RowTemplate.Height = 28;
-            this.productsDataGridView.Size = new System.Drawing.Size(93, 42);
-            this.productsDataGridView.TabIndex = 1;
             // 
             // ProductIDTextBox
             // 
@@ -96,17 +84,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1145, 668);
+            this.ClientSize = new System.Drawing.Size(574, 668);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.PreviousButto);
             this.Controls.Add(this.ProductNameTextBox);
             this.Controls.Add(this.ProductIDTextBox);
-            this.Controls.Add(this.productsDataGridView);
             this.Name = "DataBinding";
             this.Text = "DataBinding";
             this.Load += new System.EventHandler(this.DataBinding_Load);
             ((System.ComponentModel.ISupportInitialize)(this.northwindDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.productsDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -116,7 +102,6 @@
 
         private NorthwindDataSet northwindDataSet;
         private NorthwindDataSetTableAdapters.ProductsTableAdapter productsTableAdapter;
-        private System.Windows.Forms.DataGridView productsDataGridView;
         private System.Windows.Forms.TextBox ProductIDTextBox;
         private System.Windows.Forms.TextBox ProductNameTextBox;
         private System.Windows.Forms.Button PreviousButto;

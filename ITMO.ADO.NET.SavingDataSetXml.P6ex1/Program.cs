@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ITMO.ADO.NET.DataViewExample.P4ex6
+namespace ITMO.ADO.NET.SavingDataSetXml.P6ex1
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace ITMO.ADO.NET.DataViewExample.P4ex6
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DataViewExample());
+            Application.Run(new SavingDataSetXml());
         }
     }
 }
