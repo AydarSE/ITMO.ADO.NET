@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.ADO.NET.SavingDataSetX
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.ADO.NET.LoadDataSetXml.P06ex02", "ITMO.ADO.NET.LoadDataSetXml.P06ex02\ITMO.ADO.NET.LoadDataSetXml.P06ex02.csproj", "{F6324C15-104E-47D8-AD86-E44FFB1024E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.ADO.NET.Linq_Student.P07ex", "ITMO.ADO.NET.Linq_Student.P07ex\ITMO.ADO.NET.Linq_Student.P07ex.csproj", "{1EC026C6-CDA5-453F-9752-F15101AE6D6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{F6324C15-104E-47D8-AD86-E44FFB1024E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6324C15-104E-47D8-AD86-E44FFB1024E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6324C15-104E-47D8-AD86-E44FFB1024E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EC026C6-CDA5-453F-9752-F15101AE6D6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EC026C6-CDA5-453F-9752-F15101AE6D6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EC026C6-CDA5-453F-9752-F15101AE6D6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EC026C6-CDA5-453F-9752-F15101AE6D6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
